@@ -21,7 +21,7 @@ export default function ServicesSection() {
 		},
 		{
 			id: 3,
-			logo: "./network3.png",
+			logo: "/network3.png",
 			header: "Likwidacja istniejących instalacji",
 			description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nihil doloremque tempore repudiandae facilis dolorum ab cupiditate, porro fugiat, dolores voluptatum! Voluptatem voluptatibus repellendus at iste ab alias eaque officiis. Blanditiis tempore tempora hic corporis maiores dicta ullam esse, architecto aperiam natus, soluta fugiat voluptatem animi commodi in officia. Quaerat aspernatur facilis veritatis nihil perferendis architecto minima amet magnam quos."
 		},

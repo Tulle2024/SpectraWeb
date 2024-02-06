@@ -15,13 +15,13 @@ export default function ServicesSection() {
 		},
 		{
 			id: 2,
-			logo: "./network2.png",
+			logo: "/network2.png",
 			header: "Instalacje telekomunikacyjne",
 			description: "Oferujemy kompleksowe usługi w zakresie instalacji telekomunikacyjnych marek takich jak: Huawei, Nokia, czy Ericsson, spełniając najwyższe standardy branżowe. Nasza firma specjalizuje się w różnorodnych projektach, obejmujących instalacje anten sektorowych oraz radiolinii, zapewniając efektywną transmisję danych. Zaufaj nam, jeśli poszukujesz partnera, który zapewni profesjonalną obsługę oraz solidne i nowoczesne rozwiązania w dziedzinie instalacji telekomunikacyjnych."
 		},
 		{
 			id: 3,
-			logo: "./network3.png",
+			logo: "/network3.png",
 			header: "Likwidacja istniejących instalacji",
 			description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nihil doloremque tempore repudiandae facilis dolorum ab cupiditate, porro fugiat, dolores voluptatum! Voluptatem voluptatibus repellendus at iste ab alias eaque officiis. Blanditiis tempore tempora hic corporis maiores dicta ullam esse, architecto aperiam natus, soluta fugiat voluptatem animi commodi in officia. Quaerat aspernatur facilis veritatis nihil perferendis architecto minima amet magnam quos."
 		},
