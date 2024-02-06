@@ -1,0 +1,73 @@
+.hero-section
+	position: relative
+	top: 0
+	height: 100vh
+	width: 100%
+	margin-top: -98px
+	background-image: url('../assets/images/tower-820001_1280.jpg')
+	background:
+		size: cover
+		position: center
+		repeat: no-repeat
+	background-attachment: fixed
+
+	&::after
+		content: ''
+		position: absolute
+		display: block
+		left: 0
+		top: 0
+		width: 100%
+		height: 100%
+		background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%)
+		background-attachment: fixed
+
+	&__main-box
+		position: relative
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		display: inline-flex
+		flex-direction: column
+		align-items: center
+		justify-content: center
+		padding: 3rem 7rem
+		border-inline: 2px solid #eee
+		color: #eee
+		z-index: 2
+
+	&__logo
+		position: absolute
+		top: -20px
+		left: 50%
+		transform: translateX(-50%)
+		width: 90px
+		height: auto
+
+	&__company
+		font-size: 3rem
+		font-weight: 500
+		letter-spacing: 1px
+		margin-bottom: .8rem
+		color: #fff
+
+	&__sentence
+		font-weight: 400
+		font-size: 1.1rem
+		margin-bottom: 2rem
+		color: #ddd
+
+	&__main-button
+		position: absolute
+		bottom: -20px
+		left: 50%
+		transform: translateX(-50%)
+		padding: .7rem 1.2rem
+		border: none
+		border-radius: 5px
+		text-transform: uppercase
+		font-size: 0.8rem
+		font-weight: 500
+		background-color: #1a01ff
+		color: #eee
+
